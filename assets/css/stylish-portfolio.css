@@ -1,0 +1,122 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+    font-family: 'Source Sans Pro'; 
+    background: #f8f9fa;  /* fallback for old browsers */
+
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: black;
+}
+.content-section{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.consejos {
+    font-size: smaller;
+    color: #333333;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.p1 {
+    padding: 0.6em;
+}
+.p2 {
+    padding: 2em;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 2em;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: black;
+}
+.alert-icon {
+    color: #fff;
+    background-color: #82c024;
+    border-color: #d1d1d1;
+    padding-top: 2em;
+    height: 100%;
+    border-radius: 12px;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.masthead {
+    min-height: 45rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, #17a2b8 0%, #f8f9fa73, #28a745 100%), url(../img/bg-masthead.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.copyright {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.icon {
+    color: #495057;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.h4, h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+a:hover {
+    /* color: #007bff; */
+    text-decoration: none;
+    background-color: transparent;
+}
+.menu {
+    background-color: #82c024;
+    border-bottom-style: ridge;
+    border-bottom-color: #9df54d;
+}
+.gradient{
+   background: linear-gradient(to left, #117c8d, #82c024); 
+}
+
+.fa {
+    display: inline-block;
+    font-size: 28px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.alert-mmp {
+    color: #343a40;
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+}
